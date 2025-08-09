@@ -1,0 +1,101 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+header{
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin-bottom: 20px;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+nav span{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    width: 15%;
+
+}
+ul li a {
+    text-decoration: none;
+    color: #111;
+}
+
+li a:hover{
+    transition: .8s;
+    letter-spacing: 5px;
+
+}
+
+main{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 80px;
+}
+
+section {
+    height: 60%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section span {
+    background-color: #000000;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 25px;
+    font-style: oblique;
+
+}
+
+.sect1 {
+    background-image: url('fundo1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sect2 {
+    background-image: url('fundo2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sect3 {
+    background-image: url('fundo3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    height: 5%;
+    width: 100vw;
+    border-top: #ccc 1px solid;
+}

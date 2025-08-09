@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2vw;
+    border-bottom: 2px solid #ccc;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logo:hover {
+    color: rgb(14, 78, 57);
+    transition: 0.3s;
+}
+
+nav {
+    display: flex;
+    gap: 2vw;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+nav a:hover {
+    letter-spacing: 3px;
+    transition: 0.3s;
+    color: rgb(14, 78, 57);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.galeria img {
+    width: 30%;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    padding: 1vw;
+    width: 100vw;
+    border-top: #ccc solid 1px;
+    background-color: rgb(220, 220, 221);
+}
