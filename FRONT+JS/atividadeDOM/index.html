@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="Mudarcor" onmouseover="mudarCor()" onmouseout="voltaCor()">
+        texto de exemplo
+    </div>
+
+    <div id="container1">
+        <p id="paragrafo">Por que há uma cama elástica no polo Norte? <br> - Para o urso polar</p>
+        <button onclick="mostraOuEsconde()">Clique aqui para uma surpresa</button>
+    </div>
+
+    <div id="container2">
+        <p>Número de cliques:</p>
+        <span id="clique"></span>
+        <button onclick="contaCliques()">Botão</button>
+    </div>
+
+    <div id="container3">
+        <button onclick="abrirModal()">Abrir</button>
+        <div id="modal" class="modal oculto">
+            <div class="conteudo">
+                <span class="fechar" onclick="fecharModal()">&times;</span>
+                <img src="https://www.veele.com.br/wp-content/uploads/2020/12/empada-323x203-1.png" alt="empada">
+                <p>empada de frango</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

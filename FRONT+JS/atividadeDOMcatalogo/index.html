@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda já!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Venda Já!
+        </h1>
+        <nav class="nav-container">
+            <a href="#">Home</a>
+            <a href="#">Produtos</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </header>
+    <main>
+        <section class="acoes">
+            <button id="btn-desconto">Aplicar 10% de Desconto</button>
+            <button id="btn-filtrar">Mostrar Apenas Disponíveis</button>
+            <button id="btn-mostrar-todos">Mostrar Todos</button>
+        </section>
+        <section id="product-grid" class="product-grid">
+        </section>
+    </main>
+    <footer>
+        <p>Valor total dos itens em estoque: <strong id="valor-total-estoque"></strong></p>
+        <div id="log-loops"></div>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
